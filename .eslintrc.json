@@ -1,0 +1,15 @@
+{
+  "extends": ["eslint:recommended", "google", "prettier"],
+  "parserOptions": {
+    "ecmaVersion": 9
+  },
+  "env": {
+    "node": true,
+    "es6": true,
+    "browser": true
+  },
+  "rules": {
+    "require-jsdoc": 0,
+    "no-octal": 0
+  }
+}
