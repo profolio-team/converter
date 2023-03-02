@@ -1,6 +1,6 @@
 const sharp = require("sharp");
 
-module.exports.convertImage = async ( req , res ) => {
+module.exports.convertImageBase64ToWebp = async ( req , res ) => {
 
   async function toWebp ( imageInBase64 ) {
     return new Promise(( resolve , reject ) => {
